@@ -2,7 +2,9 @@
 
 function Testimonials() {
   return (
-    <div>Testimonials</div>
+    <section>
+      
+    </section>
   )
 }
 
