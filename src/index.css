@@ -33,6 +33,10 @@
   p {
     @apply font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]
   }
+
+  a {
+    @apply font-light opacity-70 hover:opacity-100
+  }
 }
 
 @layer components {
@@ -77,4 +81,13 @@
 
     .marginY {
       @apply sm:my-16 my-6}
+}
+
+.bg-black-gradient {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
 }
