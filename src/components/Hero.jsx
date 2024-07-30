@@ -1,6 +1,10 @@
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <div className="flexStart">
+      <div className="boxWidth">
+        Hero
+      </div>
+    </div>
   )
 }
 

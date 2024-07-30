@@ -1,6 +1,10 @@
 function Stats() {
   return (
-    <div>Stats</div>
+    <div className="flexStart paddingX">
+      <div className="boxWidth">
+        Stats
+      </div>
+    </div>
   )
 }
 
