@@ -1,8 +1,6 @@
-
-
-function Button() {
+function Button({ styles }) {
   return (
-    <div>Button</div>
+    <button className={`${styles} py-4 px-6 bg-blue-gradient rounded-md font-poppins text-primary outline-none text-[18px]`}>Get Started</button>
   )
 }
 

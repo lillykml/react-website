@@ -1,47 +1,33 @@
 // import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
-// export const navLinks = [
-//   {
-//     id: "home",
-//     title: "Home",
-//   },
-//   {
-//     id: "features",
-//     title: "Features",
-//   },
-//   {
-//     id: "product",
-//     title: "Product",
-//   },
-//   {
-//     id: "clients",
-//     title: "Clients",
-//   },
-// ];
+import { FaStar } from "react-icons/fa";
+import { IoShieldCheckmark } from "react-icons/io5";
+import { BsFillSendFill } from "react-icons/bs";
 
-// export const features = [
-//   {
-//     id: "feature-1",
-//     icon: star,
-//     title: "Rewards",
-//     content:
-//       "The best credit cards offer some tantalizing combinations of promotions and prizes",
-//   },
-//   {
-//     id: "feature-2",
-//     icon: shield,
-//     title: "100% Secured",
-//     content:
-//       "We take proactive steps make sure your information and transactions are secure.",
-//   },
-//   {
-//     id: "feature-3",
-//     icon: send,
-//     title: "Balance Transfer",
-//     content:
-//       "A balance transfer credit card can save you a lot of money in interest charges.",
-//   },
-// ];
+
+export const features = [
+  {
+    id: "feature-1",
+    icon: FaStar,
+    title: "Rewards",
+    content:
+      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+  },
+  {
+    id: "feature-2",
+    icon: IoShieldCheckmark,
+    title: "100% Secured",
+    content:
+      "We take proactive steps make sure your information and transactions are secure.",
+  },
+  {
+    id: "feature-3",
+    icon: BsFillSendFill,
+    title: "Balance Transfer",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+];
 
 // export const feedback = [
 //   {
