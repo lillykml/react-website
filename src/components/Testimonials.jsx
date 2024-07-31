@@ -1,5 +1,6 @@
-import { feedback } from '../constants/index';
+import { feedback, clients } from '../constants/index';
 import FeedbackCard from './FeedbackCard';
+
 
 function Testimonials() {
   return (
@@ -12,6 +13,10 @@ function Testimonials() {
         {feedback.map(comment => (
           <FeedbackCard key={comment.id} feedback={comment} />
         ))}
+      </div>
+      <div className='flex flex-col sm:flex-row items-center justify-between'>
+        {clients.map(client => <img className='object-contain w-[190px] p-6' key={client.id} src={client.logo} />)}
+
       </div>
     </section>
   )

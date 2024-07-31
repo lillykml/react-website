@@ -2,6 +2,10 @@
 import people01 from '../assets/people01.svg';
 import people02 from '../assets/people02.svg';
 import people03 from '../assets/people03.svg';
+import AirBnB from '../assets/airbnb.svg';
+import Binance from '../assets/binance.svg'
+import Coinbase from '../assets/coinbase.svg'
+import DropBox from '../assets/dropbox.svg'
 import { FaStar } from "react-icons/fa";
 import { IoShieldCheckmark } from "react-icons/io5";
 import { BsFillSendFill } from "react-icons/bs";
@@ -165,21 +169,21 @@ export const footerLinks = [
 //   },
 // ];
 
-// export const clients = [
-//   {
-//     id: "client-1",
-//     logo: airbnb,
-//   },
-//   {
-//     id: "client-2",
-//     logo: binance,
-//   },
-//   {
-//     id: "client-3",
-//     logo: coinbase,
-//   },
-//   {
-//     id: "client-4",
-//     logo: dropbox,
-//   },
-// ];
+export const clients = [
+  {
+    id: "client-1",
+    logo: AirBnB,
+  },
+  {
+    id: "client-2",
+    logo: Binance,
+  },
+  {
+    id: "client-3",
+    logo: Coinbase,
+  },
+  {
+    id: "client-4",
+    logo: DropBox,
+  },
+];
