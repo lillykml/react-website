@@ -2,7 +2,7 @@ import Robot from '../assets/RobotHand.svg';
 
 const Hero = () => {
   return (
-    <section id="home" className="sm:pl-24 pl-6 py-6 flex flex-col md:flex-row box-width">
+    <section id="home" className="sm:pl-24 pl-6 py-6 flex flex-col md:flex-row box-width items-center">
       <div className='flex-1 flex flex-col xl:px-0 sm:px-16 px:6'>
         <h1 className='leading-tight capitalize text-white font-semibold text-[72px]'>The next <span className='text-gradient'>generation</span> payment method.</h1>
         <p className='max-w-[470px mt-5]'>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. 
